@@ -17,6 +17,12 @@ body {
     line-height: 2;
     font-size: 2rem;
 }
+h1 {
+    color: var(--secundario);
+    text-align: center;
+    font-size: 4rem;
+    font-family: var(--fuentePrincipal)
+}
 .header {
     display: grid;
     justify-content: center;
