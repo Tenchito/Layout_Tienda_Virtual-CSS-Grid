@@ -58,6 +58,17 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
+.producto {
+    background-color: var(--primarioObscuro);
+    padding: 1rem;
+}
+.contenido-producto p {
+    font-family: var(--fuentePrincipal);
+    color: #FFFFFF;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 1.2;
+}
 .footer {
     background-color: var(--primarioObscuro);
     padding: 1rem 0;
