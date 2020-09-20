@@ -23,6 +23,11 @@ h1 {
     font-size: 4rem;
     font-family: var(--fuentePrincipal)
 }
+.contenedor {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}
 .header {
     display: grid;
     justify-content: center;
@@ -47,6 +52,11 @@ h1 {
 }
 .barra .nav a:hover {
     color: var(--secundario);
+}
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 .footer {
     background-color: var(--primarioObscuro);
